@@ -5,7 +5,7 @@ import {
   getPopularMovies,
   getTopRatedMovies,
   getUpcomingMovies,
-} from "@/lib/getmovies";
+} from "@/lib/getMovies";
 
 export default async function Home() {
   const nowPlayingMovies = await getNowPlayingMovies();

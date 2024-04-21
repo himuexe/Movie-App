@@ -1,5 +1,5 @@
 import MovieContainer from "@/components/MovieContainer";
-import { getDiscoverMovies } from "@/lib/getmovies";
+import { getDiscoverMovies } from "@/lib/getMovies";
 
 interface Props {
   params: {

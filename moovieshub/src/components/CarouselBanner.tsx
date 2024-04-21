@@ -1,5 +1,5 @@
 import HeroCarousel from "./HeroCarousel";
-import { getDiscoverMovies } from "@/lib/getmovies";
+import { getDiscoverMovies } from "@/lib/getMovies";
 interface Props {
   id?: string;
   keywords?: string;
