@@ -10,6 +10,7 @@ Movie Streaming Site Template made using Next.js, Tailwind CSS , Shadcn and Type
 - Sorting
 
 <p align="center">
+<img src="https://github.com/himuexe/Movie-App/main/moovieshub/src/assets/Capture.PNG">
 
 
 
