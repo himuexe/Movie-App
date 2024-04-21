@@ -1,4 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      remotePatterns: [
+        {
+          protocol: "http",
+          hostname: "image.tmdb.org",
+        },
+        {
+          protocol: "https",
+          hostname: "i.ibb.co",
+        },
+      ],
+    },
+  };
+  
+  export default nextConfig;
