@@ -14,6 +14,14 @@ Movie Streaming Site Template made using Next.js, Tailwind CSS , Shadcn and Type
 
 
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/himuexe/Movie-App/main/moovieshub/src/assets/Capture2.PNG">
+
+
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/himuexe/Movie-App/main/moovieshub/src/assets/Capture3.PNG">
+
 
 
 ## Installation-
