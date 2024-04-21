@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../assets/logo.png"
+import logo from "../assets/HUB.png"
 import Link from "next/link";
 import GenereDropDown from "./GenreDropDown";
 import SearchInput from "./SearchInput";
