@@ -4,7 +4,7 @@ import {
   getPopularMovies,
   getTopRatedMovies,
   getUpcomingMovies,
-} from "@/lib/getMovies";
+} from "@/lib/getmovies";
 
 interface Props {
   searchParams: {
