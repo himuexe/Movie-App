@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../assets/HUB.png"
+
 const infoArray = [
   {
     title: "About us",
@@ -81,7 +82,7 @@ const Footer = () => {
       <div>
         <h2 className="text-base uppercase font-bold text-white tracking-wide border-b border-b-gray-600 py-2 mb-5 relative">
           About us{" "}
-          <span className="w-16 h-1 bg-purple-600 inline-block absolute left-0 -bottom-[1.5px] z-10" />
+          <span className="w-16 h-1 bg-purple-700 inline-block absolute left-0 -bottom-[1.5px] z-10" />
         </h2>
         <Link href={"/"}>
           <Image
@@ -94,27 +95,27 @@ const Footer = () => {
           />
         </Link>
         <p className="text-gray-200 text-sm leading-6 tracking-wide mt-5 max-w-72">
-          Watch Movies free at MooviesHub!
+          Browse Latest Movies and shows at MooviesHub!
         </p>
       </div>
       <div>
         <h2 className="text-base uppercase font-bold text-white tracking-wide border-b border-b-gray-600 py-2 mb-5 relative">
           Information
-          <span className="w-16 h-1 bg-purple-600 inline-block absolute left-0 -bottom-[1.5px] z-10" />
+          <span className="w-16 h-1 bg-purple-700 inline-block absolute left-0 -bottom-[1.5px] z-10" />
         </h2>
         <Information />
       </div>
       <div>
         <h2 className="text-base uppercase font-bold text-white tracking-wide border-b border-b-gray-600 py-2 mb-5 relative">
           Category
-          <span className="w-16 h-1 bg-purple-600 inline-block absolute left-0 -bottom-[1.5px] z-10" />
+          <span className="w-16 h-1 bg-purple-700 inline-block absolute left-0 -bottom-[1.5px] z-10" />
         </h2>
         <Information contact={true} />
       </div>
       <div>
         <h2 className="text-base uppercase font-bold text-white tracking-wide border-b border-b-gray-600 py-2 mb-5 relative">
           Connect with Us
-          <span className="w-16 h-1 bg-purple-600 inline-block absolute left-0 -bottom-[1.5px] z-10" />
+          <span className="w-16 h-1 bg-purple-700 inline-block absolute left-0 -bottom-[1.5px] z-10" />
         </h2>
         <div className="text-gray-300 text-sm flex flex-col gap-2">
           <p>

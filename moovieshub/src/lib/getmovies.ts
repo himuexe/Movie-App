@@ -1,5 +1,5 @@
 import { SearchResults } from "../../type";
-const fetcher =  async  (url: URL, cacheTime?: number) => {
+const fetcher = async (url: URL, cacheTime?: number) => {
   url.searchParams.set("include_adult", "false");
   url.searchParams.set("include_video", "false");
   url.searchParams.set("sort_by", "popularity.desc");

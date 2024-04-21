@@ -20,7 +20,7 @@ const MovieContainer = ({ title, movies, isVertical }: Props) => {
         >
           View more
         </Link>
-        <span className="w-16 h-1 bg-purple-600 inline-block absolute left-0 -bottom-[1.5px] z-10" />
+        <span className="w-16 h-1 bg-purple-700 inline-block absolute left-0 -bottom-[1.5px] z-10" />
       </div>
       <div
         className={cn(

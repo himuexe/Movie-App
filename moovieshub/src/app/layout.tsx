@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MooviesHub",
-  description: "An Application for your favourite movies",
+  title: "Movie Streaming Studio",
+  description: "An application for your favorite movies",
 };
 
 export default function RootLayout({
@@ -20,15 +20,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange>
-        <Header></Header>
-        {children}
-        <Footer></Footer>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
+          {children}
+          <Footer />
         </ThemeProvider>
-        </body>
+      </body>
     </html>
   );
 }
