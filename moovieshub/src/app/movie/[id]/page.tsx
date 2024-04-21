@@ -5,7 +5,7 @@ import {
   getMovieDetails,
   getMovieVideos,
   getPopularMovies,
-} from "@/lib/getMovies";
+} from "@/lib/getmovies";
 import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
