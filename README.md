@@ -2,6 +2,7 @@
 Movie Streaming Site Template made using Next.js, Tailwind CSS , Shadcn and Typescript.
 
 
+
 ## Features
 - Responsive Design
 - Live Updation
