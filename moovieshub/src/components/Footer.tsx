@@ -119,7 +119,7 @@ const Footer = () => {
         </h2>
         <div className="text-gray-300 text-sm flex flex-col gap-2">
           <p>
-            Phone: <span className="text-white font-medium">9828477222</span>
+            Phone: <span className="text-white font-medium">+91 9828477222</span>
           </p>
           <p>
             Email:{" "}
